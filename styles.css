@@ -1,1 +1,45 @@
-/* write code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-container {
+}
+.card {
+    border: 1px dashed red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 250px;
+    margin: 50px 0 0 100px;
+    text-align: center;
+    
+}
+img {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+}
+h4{
+    padding-top: 5px;
+}
+
+.card::after{
+    content: 'X';
+    color: gra;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    cursor: pointer;
+}
+.card-container::after{
+    content: '9';
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    top: 39px;
+    left: 284px;
+}
